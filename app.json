@@ -1,7 +1,7 @@
 {
-    "name": "كرستال سورس ميوزك",
-    "description": "سورس ميوزك كرستال",
-    "logo": "https://telegra.ph/file/85f232e0613f9403c4560.jpg",
+    "name": "چـ⤸ـاڪو سورس ميوزك",
+    "description": "سورس ميوزك چـ⤸ـاڪو",
+    "logo": "https://telegra.ph/file/1860b3cdf99b31e50dab5.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -24,12 +24,12 @@
       },
       "USER_OWNER": {
         "description": "معرفك  بدون @",
-        "value": "N_1_F",
+        "value": "Mvhmed",
         "required": true
       },
       "START_IMG_URL": {
         "description": "صورة الستارت",
-        "value": "https://telegra.ph/file/85f232e0613f9403c4560.jpg",
+        "value": "https://telegra.ph/file/1860b3cdf99b31e50dab5.jpg",
         "required": true
       },
       "API_HASH": {
@@ -39,7 +39,7 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "معرف قناتك بدون @",
-        "value": "VVHH9",
+        "value": "Mvhmed",
         "required": true
       },
       "BOT_TOKEN": {
@@ -54,7 +54,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "اسم بوتك بالعربي",
-        "value": "كرستال",
+        "value": "جورجينا",
         "required": true
       },
       "OWNER_ID": {
@@ -79,7 +79,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "ايدي جروب الدعم بدايته-100",
-        "value": "-1001969933498",
+        "value": "-100",
         "required": true
       }
     },
