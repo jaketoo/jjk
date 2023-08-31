@@ -27,7 +27,7 @@ iddof = []
 )
 async def iddlock(client:Client, message:Message):
     dev = (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
@@ -54,7 +54,7 @@ async def iddlock(client:Client, message:Message):
 )
 async def idljjopen(client, message):
     dev = (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
@@ -84,10 +84,10 @@ async def idljjopen(client, message):
 async def iddd(client, message):# البريميوم الوهمي كتابة ##|𓆩˹𓏺َِ 𓏺𝙒𝙃𝙄𝙎𝙆𓏺𝞝𝙔 ٍٍٍٍٍٍّّّّّّّ『مـبـ ـࢪمـج ⏎』🇸🇦 ☬, [23/12/44 03:32 ص]
    
     member_count = app.get_chat_members_count(message.chat.id)
-    txt = ["مــلآگ ونآزل مــن آلســمــآ♥️🥺","وويليييي يااا طرف انتتتتتت","مافيككشش جوو","نععليييي منككككك",]
+    txt = ["مــلآگ ونآزل مــن آلســمــآ♥️🥺","وويليييي يااا قلبي انتتتتتت","مافيككشش جوو","نععليييي منككككك",]
     xtxk = random.choice(txt)
     botdev= (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
@@ -129,7 +129,7 @@ iddof = []
 )
 async def lllock(client, message):
     dev = (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
          rotba= "مّمٌَـبـ ـࢪمـج السوࢪس" 
@@ -154,7 +154,7 @@ async def lllock(client, message):
 )
 async def idljjopen(client, message):
     dev = (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
@@ -204,7 +204,7 @@ async def idjjdd(client, message):
 )
 async def rotba(client, message):
     dev = (OWNER_ID)
-    haya = (5676384368)
+    haya = (5940413527)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
