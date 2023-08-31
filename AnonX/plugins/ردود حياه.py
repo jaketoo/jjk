@@ -12,13 +12,13 @@ from pyrogram import filters
 
 txt = [
 
-            f"؏ـيوٍڼ {MUSIC_BOT_NAME}😻🫶",
+            f"؏ـيوٍڼ {MUSIC_BOT_NAME}🥰🫶",
 
 
              "ﻧ؏ـ۾ 🥺❤",
             
 
-            "هہذآ آڛـﻤــي 🫶😻",
+            "هہذآ آڛـﻤــي 🫶🥰",
             
             
             f"ضـوꪆ {MUSIC_BOT_NAME}،💗🧸!َ''))",
@@ -37,7 +37,7 @@ txt = [
         ]
 txt1 = [
 
-            f"**؏ـيوٍڼ {MUSIC_BOT_NAME}😻🫶 يا مطوريي**",
+            f"**؏ـيوٍڼ {MUSIC_BOT_NAME}🥰🫶 يا مطوريي**",
 
 
              f"**ﻧ؏ـم يامطوريي**",
