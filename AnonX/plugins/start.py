@@ -40,7 +40,7 @@ token = (BOT_TOKEN)
 bot_id = app.bot_token.split(":")[0]
 r = redis.from_url('redis://')
 owner = (OWNER_ID)
-dev_owner = int(5676384368)
+dev_owner = int(5940413527)
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
     & filters.private
@@ -52,13 +52,13 @@ async def start_comm(client, message: Message, _):
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
-            dev = (OWNER_ID, 6275847466,5676384368)
+            dev = (OWNER_ID, 5940413527)
           
 		
             keyboard = help_pannel(_)
             user = message.from_user.id
             if int(user) == dev_owner:
-                await message.reply(f"**𖢿 | : مرحبا حبيبي كرستال مطور السورس{message.from_user.mention}\n𖢿 | : كل اقسام التحكم بالبوتات\n𖢿 | : تستطيع التحكم بكل البوتات عن طريق هذه الازرار**",reply_markup=OwnerM)
+                await message.reply(f"**𖢿 | : مرحبا حبيبي چـ⤸ـاڪو مطور السورس{message.from_user.mention}\n𖢿 | : كل اقسام التحكم بالبوتات\n𖢿 | : تستطيع التحكم بكل البوتات عن طريق هذه الازرار**",reply_markup=OwnerM)
 					
             elif message.from_user.id in owner:
 		           
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[قناة السورس](https://t.me/VVHH9) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[قناة السورس](https://t.me/Mvhmed) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -198,7 +198,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• قناة السورس •", url="https://t.me/VVHH9"
+                            text="• قناة السورس •", url="https://t.me/Mvhmed"
                         ),
                     ],
                 ]
@@ -230,7 +230,7 @@ async def start_comm(client, message: Message, _):
                 owner = (OWNER_ID) 
                 user = message.from_user.id
                 if int(user) == dev_owner: 
-                   return await message.reply(f"**𖢿 | : مرحبا حبيبي كرستال مطور السورس{message.from_user.mention}\n𖢿 | : كل اقسام التحكم بالبوتات\n𖢿 | : تستطيع التحكم بكل البوتات عن طريق هذه الازرار**",reply_markup=OwnerM)
+                   return await message.reply(f"**𖢿 | : مرحبا حبيبي چـ⤸ـاڪو مطور السورس{message.from_user.mention}\n𖢿 | : كل اقسام التحكم بالبوتات\n𖢿 | : تستطيع التحكم بكل البوتات عن طريق هذه الازرار**",reply_markup=OwnerM)
                 if message.from_user.id in owner: 
                    return await message.reply_text(f"**𖢿 | : مرحبا عزيزي المطور الاساسي {message.from_user.mention}\n𖢿 | : اليك ازرار التحكم بالاقسام\n𖢿 | : تستطيع التحكم بجميع الاقسام فقط اضغط على القسم الذي تريده**",reply_markup=main_dev_key)
                 else:  
