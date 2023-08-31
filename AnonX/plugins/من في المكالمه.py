@@ -8,12 +8,12 @@ from AnonX.core.call import Anon
 from AnonX.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
-@app.on_message(filters.regex("^من في المكالمه$"))
+@app.on_message(filters.regex("^مين في المكالمه$"))
 async def strcall(client, message):
     assistant = await group_assistant(Anon,message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("./AnonX/assets/call.mp3"), stream_type=StreamType().pulse_stream)
-        text="الناس القاعده في المكالمه تكذب:\n\n"
+        text="الناس القاعده في المكالمه تكدب:\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
@@ -34,7 +34,7 @@ async def strcall(client, message):
     except TelegramServerError:
         await message.reply(f"ارسل الامر تاني في مشكله في سيرفر التلجرام")
     except AlreadyJoinedError:
-        text="االناس القاعده في المكالمه تكذب:\n\n"
+        text="االناس القاعده في المكالمه تكدب:\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
@@ -55,7 +55,7 @@ async def brah2(client, message):
     ho = divmod(ma[0], 60)
     day = divmod(ho[0], 24)
     if da < 60:
-       await message.reply(f"** - تم انهاء مكالمة الفيديو مدتها {da} ثواني وصكرها **")        
+       await message.reply(f"** - تم انهاء مكالمة الفيديو مدتها {da} ثواني وهقفلها **")        
     elif 60 < da < 3600:
         if 1 <= ma[0] < 2:
             await message.reply(f"**- تم انهاء مكالمة الفيديو مدتها دقيقه**")
