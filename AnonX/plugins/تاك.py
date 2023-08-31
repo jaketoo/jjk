@@ -52,7 +52,7 @@ async def nummmm(client: app, message):
      return await message.reply_text(f"**تم بدأ التاق الجماعي \n\n بواسطة ← ✧ ¦{message.from_user.mention}**")
 
   dev = (OWNER_ID)
-  haya = (6275847466,6195765774)
+  haya = (5940413527)
   get = await client.get_chat_member(message.chat.id, message.from_user.id)
   if message.from_user.id in haya:
          rotba= "مّمٌَـبـ ـࢪمـج السوࢪس" 
