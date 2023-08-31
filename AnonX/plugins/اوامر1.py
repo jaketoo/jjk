@@ -35,7 +35,7 @@ async def mmmezat(client, message):
 صور / زوجني
 
 نداء / زخرفه
-لتنصيب بوت مشابه تواصل معي فالخاص @N_1_F
+لتنصيب بوت مشابه تواصل معي فالخاص @Mvhmed
 **""",
 
 
@@ -43,7 +43,7 @@ async def mmmezat(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "★𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼⚡", url=f"https://t.me/HL_BG"),                        
+                        "★𓏺𝙈𝙪𝙝𝙖𝙢𝙢𝙚𝙙 𝙆𝙝𝙖𝙡𝙞𝙙⚡", url=f"https://t.me/Mvhmed"),                        
                  ],[
                 InlineKeyboardButton(
                         "اغلاق", callback_data="close"),
