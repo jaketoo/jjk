@@ -11,13 +11,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ضيفني",
+                text="اضف البوت الي مجموعتك او قناتك ⚡",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="**الـاوامر**",
+                text="الأوامر",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -32,18 +32,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ضيفني",
+                text="اضف البوت الي مجموعتك او قناتك ⚡",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="**الـاوامر**", callback_data="settings_back_helper"
+                text="الأوامر", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="لتنصيب بوت", url=f"https://t.me/N_1_F"
+                text="لتنصيب بوت", url=f"https://t.me/Mvhmed"
             ),
             InlineKeyboardButton(
                 text="👤 مطور البوت", user_id=OWNER
