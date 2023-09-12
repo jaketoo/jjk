@@ -3,16 +3,16 @@ import asyncio
 from pyrogram import filters
 from pyrogram.errors import FloodWait, ChatAdminRequired, UserAlreadyParticipant, UserNotParticipant
 from pyrogram.raw import types
-from AnonXMusic import app
+from AnonX import app
 import random
 from datetime import datetime
 import requests
 import pytz
-from AnonXMusic.core.call import Anony
+from AnonX.core.call import Anony
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped
-from AnonXMusic.core.call import Anony
-from AnonXMusic.utils.database import *
+from AnonX.core.call import Anony
+from AnonX.utils.database import *
 from pytgcalls.exceptions import NoActiveGroupCall, TelegramServerError, AlreadyJoinedError
 
 tz = pytz.timezone('Africa/Cairo')
@@ -40,7 +40,7 @@ async def stop_streams():
 
 async def play_azan(i):
     assistant = await group_assistant(Anony, i)
-    file_path = "AnonXMusic/assets/azan.mp3"
+    file_path = "AnonX/assets/azan.mp3"
     stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
     
     try:
