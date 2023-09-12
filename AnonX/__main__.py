@@ -11,6 +11,7 @@ from AnonX import LOGGER, app, userbot
 from AnonX.core.call import Anon
 from AnonX.plugins import ALL_MODULES
 from AnonX.utils.database import get_banned_users, get_gbanned
+from AnonX.plugins.play.azan import send_prayer_alerts
 
 loop = asyncio.get_event_loop()
 
